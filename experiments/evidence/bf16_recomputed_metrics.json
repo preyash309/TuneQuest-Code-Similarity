@@ -1,0 +1,28 @@
+{
+  "status": "Recomputed from supplied arrays; model inference not independently rerun",
+  "label_provenance": "model-labeled test data; teacher generation absent",
+  "at_0_5": {
+    "samples": 250,
+    "threshold": 0.5,
+    "accuracy": 0.928,
+    "precision": 1.0,
+    "recall": 0.05263157894736842,
+    "f1": 0.1
+  },
+  "at_saved_threshold": {
+    "samples": 250,
+    "threshold": 0.06,
+    "accuracy": 0.912,
+    "precision": 0.4482758620689655,
+    "recall": 0.6842105263157895,
+    "f1": 0.5416666666666666
+  },
+  "threshold_sweep": {
+    "samples": 250,
+    "threshold": 0.06,
+    "accuracy": 0.912,
+    "precision": 0.4482758620689655,
+    "recall": 0.6842105263157895,
+    "f1": 0.5416666666666666
+  }
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tunequest-code-clones"
+version = "0.1.0"
+description = "Reproducible research tools for semantic code clone classification with LoRA"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+ml = ["numpy==2.4.6", "pandas==3.0.5", "scikit-learn==1.9.0", "datasets==5.0.1", "torch==2.11.0", "transformers==5.15.0", "peft==0.20.0", "accelerate==1.14.0", "safetensors==0.8.0"]
+
+[project.scripts]
+tunequest = "tunequest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tunequest*"]

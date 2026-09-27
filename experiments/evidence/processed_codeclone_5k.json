@@ -1,0 +1,22 @@
+{
+  "input_file": "test_with_model_labels.jsonl",
+  "raw_rows": 5000,
+  "clean_unique_pairs": 5000,
+  "full_training_pool": 4750,
+  "training_sample_size": 4500,
+  "validation_size": 250,
+  "symmetry_augmentation": false,
+  "validation_fraction": 0.05,
+  "random_state": 42,
+  "label_distribution_train": {
+    "0": 4162,
+    "1": 338
+  },
+  "label_distribution_validation": {
+    "0": 231,
+    "1": 19
+  },
+  "train_validation_id_overlap": 0,
+  "max_seq_length_for_training": 1024,
+  "notes": "Training uses original unique pairs only. Symmetric pairs are not included in training. Symmetry will be handled during inference."
+}

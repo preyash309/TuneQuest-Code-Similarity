@@ -1,0 +1,17 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B",
+  "dataset_path": "data/processed",
+  "output_dir": "outputs/llama_bf16_lora",
+  "max_seq_length": 1024,
+  "seed": 42,
+  "num_epochs": 1,
+  "per_device_train_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "per_device_eval_batch_size": 8,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_steps": 470,
+  "lora_r": 16,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05
+}

@@ -1,0 +1,22 @@
+{
+  "input": "train_small.jsonl",
+  "seed": 42,
+  "validation_fraction": 0.05,
+  "raw_rows": 500000,
+  "removed_missing_rows": 0,
+  "removed_invalid_label_rows": 0,
+  "removed_empty_rows": 0,
+  "conflicting_unordered_pairs": 1,
+  "removed_duplicate_or_reversed_pairs": 3329,
+  "clean_unique_pairs": 496669,
+  "train_rows_before_symmetry": 471835,
+  "train_rows_after_symmetry": 943670,
+  "validation_rows": 24834,
+  "raw_unique_ids": 500000,
+  "raw_duplicate_ids": 0,
+  "train_validation_id_overlap": 0,
+  "label_distribution": {
+    "0": 266583,
+    "1": 230086
+  }
+}
