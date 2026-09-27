@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+# Keep original research files byte-for-byte, including their line endings.
+/experiments/archive/*.py -text whitespace=-blank-at-eol
